@@ -1,0 +1,12 @@
+# Purpose
+
+This guide provides examples for how to create RMC-TotalRisk models for common risk analysis applications. The following examples are included in the guide: 
+
+1. Hydrologic Hazard - Single POtential Failure Mode
+2. Hydrologic Hazard - Multiple Potential Failure Modes
+3. Seismic Hazard - Embankment - Single Potential Failure Mode
+4. Seismic Hazard - Embankment - Multiple Potential Failure Modes
+5. Seismic Hazard - Concrete Spillway Failure - Single Potential Failure Mode
+6. Seismic Hazard - Concrete Spillway Failure - Multiple Potential Failure Modes
+
+These examples are intended to be a starting point for the user to create project-specific risk analyses in RMC-TotalRisk.

@@ -76,3 +76,9 @@ ul.hidden-level-2 {
 img {
   image-rendering: optimizeQuality;
 }
+table {
+  width: 100%;
+}
+th, td {
+  padding: 8px;  /* Adjust this value for more space */
+}
