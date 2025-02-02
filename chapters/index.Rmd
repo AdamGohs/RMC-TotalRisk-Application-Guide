@@ -1,0 +1,29 @@
+--- 
+title: "RMC-TotalRisk Application Guide"
+author: "Adam C. Gohs and Damon P. Amlung"
+date: "`r paste('Last updated:', Sys.Date())`"
+site: bookdown::bookdown_site
+output: bookdown::bs4_book
+documentclass: book
+bibliography: book.bib
+csl: ieee.csl
+link-citations: yes
+github-repo: "AdamGohs/RMC-TotalRisk-Application-Guide"
+url: 'https://www.rmc.usace.army.mil/'
+description: "This is the application guide for RMC-TotalRisk."
+mathsize: 0.9
+---
+
+# Preface {-}
+
+The Risk Management Center (RMC) of the U.S. Army Corps of Engineers (USACE) has developed a suite of Microsoft Excel spreadsheets to support risk assessments for dam and levee safety. Each analysis suite is composed of multiple toolboxes (Microsoft Excel workbooks), and each toolbox contains multiple spreadsheet tools or calculation worksheets (Microsoft Excel worksheets). The RMC Filter Evaluation (Continuation) Toolbox is part of the RMC Internal Erosion Suite.
+
+The spreadsheet tools contained in this toolbox assess the particle retention and permeability criteria for filter materials It includes modern no erosion filter design criteria, Foster and Fell (2001) method for filters that do not meet modern filter design criteria, and the Fell and Foster (2023) method for "continuing erosion" condition for constricted exits.
+
+### How to Cite This Guide {-}
+
+If you would like to cite this Application Guide, please use the following format:
+
+```{block, type='citation-note'}
+A. C. Gohs and D. P. Amlung, *RMC-TotalRisk Application Guide*, Lakewood, CO: U.S. Army Corps of Engineers, Risk Management Center, 2024. Accessed on <span class="current-date">&lt;enter current date here&gt;</span>.
+```
