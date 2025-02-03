@@ -85,8 +85,7 @@ library(kableExtra)
 
 # Create the data frame with explicit grouping
 df <- data.frame(
-  Stage = c(rep("Node 1", 4), rep("Node 2", 4), rep("Node 3", 4),
-           rep("Node 4", 4), rep("Node 5", 4), rep("Node 6", 4), rep("Node 7", 4),
+  Stage = c(rep("<b><u>Node 1</u></b><br>Continuous Pathway<br><br><i>Distribution: Triangular</i>", 4), rep("<b><u>Node 2</u></b><br>Unfiltered Exit Downstream<br><br><i>Distribution: Deterministic</i>", 4), rep("<b><u>Node 3</u></b><br>Initiation<br><br><i>Distribution: Triangular</i>", 4), rep("<b><u>Node 4</u></b><br>Progression (Mechanical)<br><br><i>Distribution: Triangular</i>", 4), rep("<b><u>Node 5</u></b><br>Progression (Hydraulic)<br><br><i>Distribution: Triangular</i>", 4), rep("<b><u>Node 6</u></b><br>Unsuccessful Intervention<br><br><i>Distribution: Triangular</i>", 4), rep("<b><u>Node 7</u></b><br>Breach<br><br><i>Distribution: Triangular</i>", 4),
            "Mean SRP w/ Intervention", "Mean SRP w/o Intervention"),
   Category = c("LRV", "MLV", "HRV", "EV",
             "LRV", "MLV", "HRV", "EV",
@@ -150,7 +149,8 @@ df <- data.frame(
 colnames(df) <- c("Stage (ft)", "", "641.00", "642.50", "644.00", "645.50", "647.50", "649.65")
 
 # Render the table
-kable(df, format = "html", 
+kable(df, format = "html",
+      escape = FALSE,
       align = "lcccccc",
       booktabs = TRUE, 
       caption = "Backward erosion piping system response probabilities.") %>%
@@ -162,3 +162,4 @@ kable(df, format = "html",
 ```{r figure-2, echo=FALSE, fig.align="center", fig.cap="Backward erosion piping event tree.", out.width="100%"}
 knitr::include_graphics("images/figure2.png")
 ```
+
