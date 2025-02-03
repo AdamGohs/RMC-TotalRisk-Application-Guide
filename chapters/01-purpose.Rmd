@@ -1,12 +1,3 @@
 # Purpose
 
-This guide provides examples for how to create RMC-TotalRisk models for common risk analysis applications. The following examples are included in the guide: 
-
-1. Hydrologic Hazard - Single POtential Failure Mode
-2. Hydrologic Hazard - Multiple Potential Failure Modes
-3. Seismic Hazard - Embankment - Single Potential Failure Mode
-4. Seismic Hazard - Embankment - Multiple Potential Failure Modes
-5. Seismic Hazard - Concrete Spillway Failure - Single Potential Failure Mode
-6. Seismic Hazard - Concrete Spillway Failure - Multiple Potential Failure Modes
-
-These examples are intended to be a starting point for the user to create project-specific risk analyses in RMC-TotalRisk.
+The purpose of this RMC-TotalRisk Application Guide is to demonstrate how to use the software for performing risk analysis calculations in scenarios commonly encountered in risk assessments of US Army Corps of Engineers (USACE) dams. This guide does not aim to explain the fundamental concepts of risk analysis or the USACE dam safety risk management framework. It is intended for readers who already possess an expert-level understanding of risk analysis, risk management, event tree analysis, risk tolerability, uncertainty analysis, probability theory, and statistics within the context of dam safety risk analysis.
